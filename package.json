@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
 
-  "homepage": "https://NourHassnein.github.io/admin-dashboard",
+  "homepage": "https://NourHassnein.github.io/admin",
 
   "scripts": {
     "dev": "vite",
