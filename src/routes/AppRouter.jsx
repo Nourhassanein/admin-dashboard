@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Layout from "../components/layout/Layout";
 import Dashboard from "../pages/Dashboard";
@@ -13,8 +13,8 @@ import Support from "../pages/Support";
 
 export default function AppRouter() {
   return (
-    <BrowserRouter>
-      <Routes>
+    <HashRouter>
+     <Routes>
 
         <Route path="/login" element={<Login />} />
 
@@ -29,7 +29,7 @@ export default function AppRouter() {
          <Route path="support" element={<Support />} />
         </Route>
 
-      </Routes>
-    </BrowserRouter>
+       </Routes>
+      </HashRouter>
   );
 }
